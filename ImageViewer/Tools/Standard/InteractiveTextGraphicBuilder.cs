@@ -34,7 +34,7 @@ namespace ClearCanvas.ImageViewer.Tools.Standard
 	/// Adds two events to mark completion or cancellation of the text graphic after the graphic builder loses
 	/// mouse input capture and enters text edit mode (still part of text graphic building process).
 	/// </summary>
-	internal abstract class InteractiveTextGraphicBuilder : InteractiveGraphicBuilder
+	public abstract class InteractiveTextGraphicBuilder : InteractiveGraphicBuilder
 	{
 		private event EventHandler<GraphicEventArgs> _graphicFinalComplete;
 		private event EventHandler<GraphicEventArgs> _graphicFinalCancelled;

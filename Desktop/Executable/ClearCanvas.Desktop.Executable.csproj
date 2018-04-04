@@ -126,10 +126,99 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AIM.Annotation\AIM.Annotation.csproj">
+      <Project>{7bba1ce8-86ad-4ca3-acee-0bf84f7ce48d}</Project>
+      <Name>AIM.Annotation</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AIM.Annotation\View\WinForms\AIM.Annotation.View.WinForms.csproj">
+      <Project>{a1c04e54-8f41-4de9-901e-5988dd95476a}</Project>
+      <Name>AIM.Annotation.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AimDataService\AimDataService.csproj">
+      <Project>{6ff2fa68-c048-410c-ba1f-da5f42a0e2fc}</Project>
+      <Name>AimDataService</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AimDataService\View\WinForms\AimDataService.View.WinForms.csproj">
+      <Project>{7456195d-b3c4-43fd-a77b-9a153c0254dd}</Project>
+      <Name>AimDataService.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AIMTemplateService\AIMTemplateService.csproj">
+      <Project>{3960b646-706b-4944-8cef-71c14aefb388}</Project>
+      <Name>AIMTemplateService</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\AIMTemplateService\View\WinForms\AIMTemplateService.View.WinForms.csproj">
+      <Project>{8b852d27-fdc2-414e-9044-a157f222b980}</Project>
+      <Name>AIMTemplateService.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\DataServiceUtil\DataServiceUtil.csproj">
+      <Project>{74fbf2ad-fc88-4080-86bf-3aacd1b51f51}</Project>
+      <Name>DataServiceUtil</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\GeneralUtilities\GeneralUtilities.csproj">
+      <Project>{96ef8a73-2caf-4625-ba5f-9fdc685219e5}</Project>
+      <Name>GeneralUtilities</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\NBIAService\NBIAService.csproj">
+      <Project>{94aead7a-2c95-402c-b2e8-e06b8edad668}</Project>
+      <Name>NBIAService</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\SearchComponent\SearchComponent.csproj">
+      <Project>{0d670ad4-777f-4619-8d3a-fd4f19cc7a8b}</Project>
+      <Name>SearchComponent</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\SearchComponent\View\WinForms\SearchComponent.View.WinForms.csproj">
+      <Project>{83647b51-461e-4388-8409-cdfb68543808}</Project>
+      <Name>SearchComponent.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\Segmentation\Segmentation.csproj">
+      <Project>{a393d687-d910-4cb7-aa8a-6e5fb94e3d3c}</Project>
+      <Name>Segmentation</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\Segmentation\View\WinForms\Segmentation.View.WinForms.csproj">
+      <Project>{804c9625-a899-428e-b84b-6d4fc5818fe9}</Project>
+      <Name>Segmentation.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\TCGA\TCGA.csproj">
+      <Project>{6569425a-1278-45a3-a6e3-f854465bf030}</Project>
+      <Name>TCGA</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\TCGA\View\WinForms\TCGA.View.WinForms.csproj">
+      <Project>{63e3be00-a838-446c-b748-7fbee8ed9de9}</Project>
+      <Name>TCGA.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\XnatWebBrowser\View\WinForms\XnatWebBrowser.View.WinForms.csproj">
+      <Project>{26e2e572-f8b8-4e1f-9ec7-f8c6cc21ce31}</Project>
+      <Name>XnatWebBrowser.View.WinForms</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\AimPlugin4.5\XnatWebBrowser\XnatWebBrowser.csproj">
+      <Project>{2e2e5d5d-e292-4628-8f76-3d3744484def}</Project>
+      <Name>XnatWebBrowser</Name>
+      <Private>False</Private>
+    </ProjectReference>
     <ProjectReference Include="..\..\Common\ClearCanvas.Common.csproj">
       <Project>{F6EAD428-E6CF-4DF6-B2F3-D33D532C5343}</Project>
       <Name>ClearCanvas.Common</Name>
       <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ImageViewer\Shreds\ClearCanvas.ImageViewer.Shreds.csproj">
+      <Project>{e991cf00-a0e1-490c-a0d1-2bd77faecf06}</Project>
+      <Name>ClearCanvas.ImageViewer.Shreds</Name>
     </ProjectReference>
     <ProjectReference Include="..\View\WinForms\ClearCanvas.Desktop.View.WinForms.csproj">
       <Project>{BB434EC3-A580-4744-A635-A2B4029C66DE}</Project>

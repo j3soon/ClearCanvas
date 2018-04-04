@@ -97,7 +97,34 @@
     <SharedPluginFiles Include="$(ProjectDir)\..\..\Desktop\View\WinForms\bin\$(Configuration)\ClearCanvas.Desktop.View.WinForms.dll" />
     <SharedPluginFiles Include="$(ProjectDir)\..\..\Desktop\Help\bin\$(Configuration)\ClearCanvas.Desktop.Help.dll" />
     <SharedPluginFiles Include="$(ProjectDir)\..\..\Utilities\Manifest\bin\$(Configuration)\ClearCanvas.Utilities.Manifest.dll" />
-  </ItemGroup>
+    
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIM.Annotation\bin\$(Configuration)\AIM.Annotation.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIM.Annotation\View\WinForms\bin\$(Configuration)\AIM.Annotation.View.WinForms.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AimDataService\bin\$(Configuration)\StsAimDataService.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AimDataService\View\WinForms\bin\$(Configuration)\StsAimDataService.View.WinForms.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMTemplateService\bin\$(Configuration)\AIMTemplateService.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMTemplateService\View\WinForms\bin\$(Configuration)\AIMTemplateService.View.WinForms.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\DataServiceUtil\bin\$(Configuration)\DataServiceUtil.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\GeneralUtilities\bin\$(Configuration)\GeneralUtilities.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\NBIAService\bin\$(Configuration)\NBIAService.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\SearchComponent\bin\$(Configuration)\SearchComponent.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\SearchComponent\View\WinForms\bin\$(Configuration)\SearchComponent.View.WinForms.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\Segmentation\bin\$(Configuration)\Segmentation.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\Segmentation\View\WinForms\bin\$(Configuration)\Segmentation.View.WinForms.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\XnatWebBrowser\bin\$(Configuration)\XnatWebBrowser.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\XnatWebBrowser\View\WinForms\bin\$(Configuration)\XnatWebBrowser.View.WinForms.dll" />
+    
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\TCGA\bin\$(Configuration)\TCGA.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\TCGA\View\WinForms\bin\$(Configuration)\TCGA.View.WinForms.dll" />
+    
+    <SharedPluginFiles Include="$(ProjectDir)..\..\ImageViewer\Shreds\bin\$(Configuration)\ClearCanvas.ImageViewer.Shreds.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AIMToolkit_v4.1.0_rv44\source\xercesc-3.1\x64\bin\xerces-c_3_1.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLib.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLib.NET.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLibModel.NET.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\AimTmplUtil1923.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\AimTmplUtilV1Rv23V2Rv13.dll" />
+</ItemGroup>
 
   <!-- Extension Browser plugin files -->
   <ItemGroup>
