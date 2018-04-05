@@ -216,10 +216,6 @@
       <Name>ClearCanvas.Common</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\ImageViewer\Shreds\ClearCanvas.ImageViewer.Shreds.csproj">
-      <Project>{e991cf00-a0e1-490c-a0d1-2bd77faecf06}</Project>
-      <Name>ClearCanvas.ImageViewer.Shreds</Name>
-    </ProjectReference>
     <ProjectReference Include="..\View\WinForms\ClearCanvas.Desktop.View.WinForms.csproj">
       <Project>{BB434EC3-A580-4744-A635-A2B4029C66DE}</Project>
       <Name>ClearCanvas.Desktop.View.WinForms</Name>

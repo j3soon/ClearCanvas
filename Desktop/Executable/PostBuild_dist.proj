@@ -86,6 +86,7 @@
     <SharedLibraryFiles Include="$(ProjectDir)\..\..\Common\bin\$(Configuration)\ClearCanvas.Common.dll" />
     <SharedLibraryFiles Include="$(ProjectDir)\..\..\ReferencedAssemblies\log4net.dll" />
     <SharedLibraryFiles Include="$(ProjectDir)\..\..\ReferencedAssemblies\DotNetMagic2005.DLL" />
+    <SharedLibraryFiles Include="$(ProjectDir)..\..\Server\ShredHost\bin\$(Configuration)\ClearCanvas.Server.ShredHost.dll" />
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
     <SharedLibraryFiles Include="$(ProjectDir)\..\..\ReferencedAssemblies\nunit.framework.dll" />
