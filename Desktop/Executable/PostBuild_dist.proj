@@ -118,10 +118,10 @@
     <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\TCGA\View\WinForms\bin\$(Configuration)\TCGA.View.WinForms.dll" />
     
     <SharedPluginFiles Include="$(ProjectDir)..\..\ImageViewer\Shreds\bin\$(Configuration)\ClearCanvas.ImageViewer.Shreds.dll" />
-    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AIMToolkit_v4.1.0_rv44\source\xercesc-3.1\x64\bin\xerces-c_3_1.dll" />
-    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLib.dll" />
-    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLib.NET.dll" />
-    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x64\AIMLibModel.NET.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AIMToolkit_v4.1.0_rv44\source\xercesc-3.1\x86\bin\xerces-c_3_1.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x86\AIMLib.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x86\AIMLib.NET.dll" />
+    <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\4.0\x86\AIMLibModel.NET.dll" />
     <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\AimTmplUtil1923.dll" />
     <SharedPluginFiles Include="$(ProjectDir)..\..\..\AimPlugin4.5\AIMReferences\$(Configuration)\AimTmplUtilV1Rv23V2Rv13.dll" />
 </ItemGroup>
